@@ -8,8 +8,11 @@ const prisma = new PrismaClient()
 
 const r = Router();
 
-r.get("/", (req, res) => {
-  res.json(new SuccessResponseObject("demo path live 🚀"));
+r.get("/", async (req, res) => {
+
+  const findAdmin = await prisma.admin.findMany()
+
+  res.json(findAdmin);
 });
 
 module.exports = r;
