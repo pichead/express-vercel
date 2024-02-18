@@ -4,9 +4,9 @@
   "description": "express vercel boilerplate",
   "main": "app.js",
   "scripts": {
-    "start": "vercel dev",
-    "test": "jest -i",
-    "postinstall": "prisma generate"
+    "vercel-start": "vercel dev",
+    "start":"node app.js",
+    "test": "jest -i"
   },
   "dependencies": {
     "@prisma/client": "^5.9.1",
