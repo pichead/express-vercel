@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const { SuccessResponseObject } = require("../common/http");
 
-import { PrismaClient } from '@prisma/client'
+const { PrismaClient } = require('../prisma/generated/client')
 
 const prisma = new PrismaClient()
 
