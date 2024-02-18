@@ -474,6 +474,11 @@
     "@types/yargs" "^16.0.0"
     "chalk" "^4.0.0"
 
+"@prisma/client@^5.9.1":
+  "integrity" "sha512-caSOnG4kxcSkhqC/2ShV7rEoWwd3XrftokxJqOCMVvia4NYV/TPtJlS9C2os3Igxw/Qyxumj9GBQzcStzECvtQ=="
+  "resolved" "https://registry.npmjs.org/@prisma/client/-/client-5.9.1.tgz"
+  "version" "5.9.1"
+
 "@prisma/debug@5.9.1":
   "integrity" "sha512-yAHFSFCg8KVoL0oRUno3m60GAjsUKYUDkQ+9BA2X2JfVR3kRVSJFc/GpQ2fSORi4pSHZR9orfM4UC9OVXIFFTA=="
   "resolved" "https://registry.npmjs.org/@prisma/debug/-/debug-5.9.1.tgz"
@@ -2360,7 +2365,7 @@
     "ansi-styles" "^5.0.0"
     "react-is" "^17.0.1"
 
-"prisma@^5.9.1":
+"prisma@*", "prisma@^5.9.1":
   "integrity" "sha512-Hy/8KJZz0ELtkw4FnG9MS9rNWlXcJhf98Z2QMqi0QiVMoS8PzsBkpla0/Y5hTlob8F3HeECYphBjqmBxrluUrQ=="
   "resolved" "https://registry.npmjs.org/prisma/-/prisma-5.9.1.tgz"
   "version" "5.9.1"
