@@ -6,7 +6,9 @@
   "scripts": {
     "vercel-start": "vercel dev",
     "start": "node app.js",
-    "test": "jest -i"
+    "test": "jest -i",
+    "postinstall": "prisma generate"
+
   },
   "dependencies": {
     "@prisma/client": "^5.9.1",
